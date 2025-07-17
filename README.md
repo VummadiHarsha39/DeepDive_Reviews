@@ -40,7 +40,7 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 Click below to watch a short demonstration and methdology explanation of the project:
 
-![Watch the Demo Video](https://vimeo.com/1102336040)
+[![Video](https://vumbnail.com/1102336040.jpg)](https://vimeo.com/1102336040)
 
 
 ### ⚙️ How It Works (Operational Flow)
