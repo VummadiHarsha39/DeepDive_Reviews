@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.log
+.pytest_cache/
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data
+data/processed/
+data/raw/
+models/
+mlruns/
+mlartifacts/
+results/ 
+dvc_cache/
+.dvc/tmp/
+
+# Frontend (if you start working on it early)
+web_app/frontend/node_modules/
+web_app/frontend/.next/
+web_app/frontend/out/
+
+# IDE
+.vscode/
+.idea/
