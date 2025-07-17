@@ -76,7 +76,7 @@ v        v        v
 
 ## Project Demo
 
-Click below to watch a short demonstration of the project:
+Click below to watch a short demonstration and methdology explanation of the project:
 
 [Watch the Demo Video](Videos/Demo.mp4)
 
