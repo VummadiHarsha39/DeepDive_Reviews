@@ -33,33 +33,6 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 ---
 
-## 🏗️ Technical Architecture & Flow
-
-The system is built with a modular, full-stack architecture, ensuring scalability, maintainability, and clear separation of concerns.
-
-User (Browser) 
-     ↓
-Frontend (Next.js)
-     ↓
-Backend API (FastAPI)
-     ↓
-Orchestrator
-     ↓
-Prediction Service
-     ↓
-ML Components:
-├── Emotion Detector
-├── Deception Detector  
-├── Explanation Generator
-└── Classifier
-     ↓
-MLflow Model Registry
-(Local: mlruns/mlruns.db)
-     ↓
-Data Processing
-(Preprocessing)
-     ↓
-Raw Data (GoEmotions)
 
 
 
@@ -67,7 +40,7 @@ Raw Data (GoEmotions)
 
 Click below to watch a short demonstration and methdology explanation of the project:
 
-[Watch the Demo Video](Videos/Demo.mp4)
+![Watch the Demo Video](https://vimeo.com/1102336040)
 
 
 ### ⚙️ How It Works (Operational Flow)
