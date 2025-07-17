@@ -74,6 +74,13 @@ v        v        v
 +---------------------+
 
 
+## Project Demo
+
+Click below to watch a short demonstration of the project:
+
+[Watch the Demo Video](Videos/Demo.mp4)
+
+
 ### ⚙️ How It Works (Operational Flow)
 
 1.  **User Input:** User enters review text on the **Frontend** (`http://localhost:3000`).
