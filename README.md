@@ -10,7 +10,7 @@ In today's digital landscape, distinguishing genuine feedback from sophisticated
 
 This project goes beyond simple spam detection by analyzing the nuanced emotional signals and linguistic patterns within reviews and social posts, providing clear explanations, and extracting actionable customer intent.
 
-![Flow of our Project](Images/Chart.png)
+![Structure of our Project](Images/Chart.png)
 
 ### 💡 Problem Solved
 
