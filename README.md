@@ -37,42 +37,29 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 The system is built with a modular, full-stack architecture, ensuring scalability, maintainability, and clear separation of concerns.
 
-+-------------------+    +-------------------+    +-------------------------+
-|  User (Browser)   |<-->|    Frontend       |<-->|  Backend API (FastAPI)  |
-+-------------------+    |   (Next.js)       |    +-------------------------+
-                         +-------------------+                   |
-                                                                |
-                                                                v
-                         +-------------------+    +-------------------------+
-                         | Prediction        |<-->| Orchestrator            |
-                         | Service           |    +-------------------------+
-                         +-------------------+                   |
-                                                                |
-                                                                v
-+-----------------------------------------------------------------------------+
-|                            ML Components                                    |
-+-----------------+-----------------+-----------------+---------------------+
-| Emotion         | Deception       | Explanation     | Classifier          |
-| Detector        | Detector        | Generator       |                     |
-+-----------------+-----------------+-----------------+---------------------+
-                                    |
-                                    v
-                    +-----------------------------------+
-                    | MLflow Model Registry             |
-                    | (Local: mlruns/mlruns.db)         |
-                    +-----------------------------------+
-                                    |
-                                    v
-                    +-----------------------------------+
-                    | Data Processing                   |
-                    | (Preprocessing)                   |
-                    +-----------------------------------+
-                                    |
-                                    v
-                    +-----------------------------------+
-                    | Raw Data (GoEmotions)             |
-                    +-----------------------------------+
-
+User (Browser) 
+     ↓
+Frontend (Next.js)
+     ↓
+Backend API (FastAPI)
+     ↓
+Orchestrator
+     ↓
+Prediction Service
+     ↓
+ML Components:
+├── Emotion Detector
+├── Deception Detector  
+├── Explanation Generator
+└── Classifier
+     ↓
+MLflow Model Registry
+(Local: mlruns/mlruns.db)
+     ↓
+Data Processing
+(Preprocessing)
+     ↓
+Raw Data (GoEmotions)
 
 
 
