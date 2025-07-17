@@ -10,6 +10,8 @@ In today's digital landscape, distinguishing genuine feedback from sophisticated
 
 This project goes beyond simple spam detection by analyzing the nuanced emotional signals and linguistic patterns within reviews and social posts, providing clear explanations, and extracting actionable customer intent.
 
+![Flow of our Project](Images/Chart.png)
+
 ### 💡 Problem Solved
 
 Companies and consumers struggle to identify genuine online reviews. Fake reviews often appear normal but possess subtle, 'off' emotional patterns or repetitive language that betray their inauthenticity. This system aims to expose these subtle cues.
