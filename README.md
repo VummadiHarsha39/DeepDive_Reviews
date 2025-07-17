@@ -37,42 +37,41 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 The system is built with a modular, full-stack architecture, ensuring scalability, maintainability, and clear separation of concerns.
 
-+-----------------+      +-------------------+      +--------------------------+
-|                 |      |                   |      |                          |
-|  User (Browser) | <--> | Frontend (Next.js)| <--> | Backend API (FastAPI)   |
-|                 |      |                   |      |                          |
-+-----------------+      +-------------------+      +------------+-------------+
-                                                             |
-                                                             v
-                                                +----------------------------+
-                                                |    Prediction Service     |
-                                                |      (Orchestrator)       |
-                                                +----------------------------+
-                                                  |          |           |
-                                                  v          v           v
-                                           +-----------+ +-----------+ +-----------+
-                                           |  Emotion  | | Deception| |Explanation|
-                                           | Classifier| | Detector | | Generator |
-                                           +-----------+ +-----------+ +-----------+
-                                                  ^           ^
-                                                  |           |
-                                       +----------+-----------+----------+
-                                       |                               |
-                                       +--------------v----------------+
-                                       |     MLflow Model Registry     |
-                                       |  (Local: mlruns/mlruns.db)    |
-                                       +-------------------------------+
-                                                  ^
-                                                  |
-                                       +----------+----------+
-                                       | Data Processing      |
-                                       |   (Preprocessing)    |
-                                       +----------+----------+
-                                                  ^
-                                                  |
-                                       +----------+----------+
-                                       | Raw Data (GoEmotions)|
-                                       +----------------------+
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────────────┐
+│  User (Browser) │◄──►│ Frontend        │◄──►│ Backend API (FastAPI)   │
+└─────────────────┘    │ (Next.js)       │    └─────────────────────────┘
+                       └─────────────────┘                   │
+                                                            │
+                                                            ▼
+                       ┌─────────────────┐    ┌─────────────────────────┐
+                       │ Prediction      │◄──►│ Orchestrator            │
+                       │ Service         │    └─────────────────────────┘
+                       └─────────────────┘                   │
+                                                            │
+                                                            ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        ML Components                                        │
+├─────────────────┬─────────────────┬─────────────────┬─────────────────────┤
+│ Emotion         │ Deception       │ Explanation     │ Classifier          │
+│ Detector        │ Detector        │ Generator       │                     │
+└─────────────────┴─────────────────┴─────────────────┴─────────────────────┘
+                                    │
+                                    ▼
+                    ┌─────────────────────────────────┐
+                    │ MLflow Model Registry           │
+                    │ (Local: mlruns/mlruns.db)       │
+                    └─────────────────────────────────┘
+                                    │
+                                    ▼
+                    ┌─────────────────────────────────┐
+                    │ Data Processing                 │
+                    │ (Preprocessing)                 │
+                    └─────────────────────────────────┘
+                                    │
+                                    ▼
+                    ┌─────────────────────────────────┐
+                    │ Raw Data (GoEmotions)           │
+                    └─────────────────────────────────┘
 
 
 
