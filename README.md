@@ -26,8 +26,8 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 ### 🔥 Why This Project is Unique & Exciting
 
-* **Underexplored Domain:** Focuses on emotional signal analysis for fake detection, a less common and more challenging approach than typical spam/bot detection.
-* **Transparent & Actionable:** Combines ML predictions with clear explanations and direct business-relevant summaries.
+* **Underexplored Domain:** Concentrates on analyzing emotional signals for detecting fakes, presenting a more intricate and less conventional method compared to standard spam or bot detection.
+* **Transparent & Actionable:** Actionable:** combines clear explanations with measurable metrics with predictions from machine learning.
 * **End-to-End MLOps Pipeline:** Demonstrates capabilities across data, model training, serving, and deployment.
 * **Real-world Applicability:** Directly addresses a critical need for e-commerce, hospitality, and social media platforms to foster trust and understand their audience.
 
