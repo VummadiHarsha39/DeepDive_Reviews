@@ -38,7 +38,7 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 
 ## Project Demo
 
-Click below to watch methodolgy explanation and short demo of backend and frontend of the project:
+Click below to watch a clear methodolgy explanation and short demo of backend and frontend of the project:
 
 [![Video](https://vumbnail.com/1102336040.jpg)](https://vimeo.com/1102336040)
 
