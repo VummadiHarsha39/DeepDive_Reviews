@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Emotional Counterfeit Detector 🎭  
+# 🕵️‍♂️ DeepDive - Reviews ---- Emotional Counterfeit Detector 🎭  
 **Unmasking Deception, Revealing Intent**
 
 [![Project Status](https://img.shields.io/badge/Status-Local%20Functional-brightgreen?style=for-the-badge)](https://github.com/VummadiHarsha39/emotional-counterfeit-detector__NLP__Application_for-Review_Analysis.git)
