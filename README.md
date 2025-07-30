@@ -1,6 +1,16 @@
-# 🕵️‍♂️ Emotional Counterfeit Detector 🎭
+# 🕵️‍♂️ Emotional Counterfeit Detector 🎭  
+**Unmasking Deception, Revealing Intent**
 
-An End-to-End Machine Learning System for Authentic Review Analysis & Customer Insight.
+[![Project Status](https://img.shields.io/badge/Status-Local%20Functional-brightgreen?style=for-the-badge)](https://github.com/VummadiHarsha39/emotional-counterfeit-detector__NLP__Application_for-Review_Analysis.git)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Hugging%20Face](https://img.shields.io/badge/Hugging%20Face-Transformers-FFBA18?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/docs/transformers/index)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-14%2B-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![MLflow](https://img.shields.io/badge/MLflow-3.x-0091DA?style=for-the-badge&logo=mlflow&logoColor=white)](https://mlflow.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Contact](https://img.shields.io/badge/Contact-@VummadiHarsha39-2ea44f?style=for-the-badge&logo=github)](https://github.com/VummadiHarsha39)
 
 ---
 
