@@ -34,12 +34,6 @@ Companies and consumers struggle to identify genuine online reviews. Fake review
 * **Concise Customer Intent Summary:** Delivers a 1-2 line summary of the core message or underlying sentiment the customer intends to convey, offering immediate business insight.
 * **Interactive Web Application:** A user-friendly interface for single review analysis and batch CSV processing.
 
-### 🔥 Why This Project is Unique & Exciting
-
-* **Underexplored Domain:** Concentrates on analyzing emotional signals for detecting fakes, presenting a more intricate and less conventional method compared to standard spam or bot detection.
-* **Transparent & Actionable:** Combines clear explanations with measurable metrics with predictions from machine learning.
-* **End-to-End MLOps Pipeline:** Demonstrates capabilities across data, model training, serving, and deployment.
-* **Real-world Applicability:** Directly addresses a critical need for e-commerce, hospitality, and social media platforms to foster trust and understand their audience.
 
 ---
 
