@@ -1,4 +1,4 @@
-<artifact identifier="minimal-readme" type="text/markdown" title="Minimal DeepDive README">
+
 # DeepDive - Emotional Counterfeit Detector
 Detects fake reviews by analyzing emotional patterns and linguistic cues in user-generated content.
 
