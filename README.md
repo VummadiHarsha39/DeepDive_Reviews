@@ -64,6 +64,4 @@ Click below to watch a clear methodolgy explanation and short demo of backend an
 ---
 
 
-This detailed overview should serve as your definitive guide to the project. It outlines every step, every component, and every major challenge you've overcome. You have built a truly impressive system.
-
 If you want a concise explanation of this project, please feel free to checkout the article about this project on medium, https://medium.com/@vummadiharsha123/summer-project-3-nlp-application-to-detect-emotional-counterfeit-of-a-customer-review-e4e583626f96.
